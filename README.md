@@ -24,21 +24,25 @@ Flex file's extensions are ```.l``` or ```.lex```
 run command prompt, where your .l or .lex file is located
 ## First approach
 In cmd Type :<br>
-```flex filename.l```<br>
-Then Type: ```gcc lex.yy.c```<br>
-it will give ```a.out``` file<br>
-Again Type: ```./a.out```<br>
+```
+flex filename.l
+gcc lex.yy.c
+./a.out
+```
 
-Disadvantage - of this approach: you have to create one folder to execute one .lex file
-              So if you have multiple .l or .lex file, have to create different different folder
-              why? The reason is: for each .l or .lex file , everytime a.out file will be created
-              Now windows doesn't support duplicate file in same folder,so it will try to merge & the previous a.out file will be lost  
+#### Disadvantage of this approach:
+you have to create one folder to execute one .lex file
+So if you have multiple .l or .lex file, have to create different different folder
+why? The reason is: for each .l or .lex file , everytime a.out file will be created
+Now windows doesn't support duplicate file in same folder,so it will try to merge & the previous a.out file will be lost
 
 ## Second approach/Best approach
 generally Flex programme is designed with default ```a.out``` file But if You can change the name of Object file , then automatically the executable file name will be changed
 
 In CMD Type:
-```flex fileName.l```<br>
-```gcc lex.yy.c -o Anything```<br>
-```./Anything.exe```<br>
+```
+flex fileName.l
+gcc lex.yy.c -o Anything
+./Anything.exe
+```
 
