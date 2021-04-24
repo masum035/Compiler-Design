@@ -1,0 +1,31 @@
+int main()
+{
+	int choice,i,j,a=5,b=10,c=1,d=2,_oddsum=0,_evensum=0;
+	float num1=3.1416;
+	double num2=3.15E-2; 
+	switch(choice)
+	{
+	case 1:
+		int res;
+		res=(a+b-c)*(d/2);
+		break;
+	case 2:
+		for(i=1;i<=100;i++)
+	    	{
+			if(i%2!=0)
+				_oddsum=_oddsum+i;
+			else if(i%2==0)
+				_evensum=_evensum+i;
+	    	}
+		break;
+	case 3:
+		j=10;
+		while(j>=1 && j<=10)
+		{
+			j--;	
+		}
+		break;
+	default:
+		prinf("Wrong Input");
+	}
+}

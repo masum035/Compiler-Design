@@ -1,0 +1,189 @@
+<Keyword , int > Line Number = 1
+<Keyword , main > Line Number = 1
+<Parentheses , ( > Line Number = 1
+<Parentheses , ) > Line Number = 1
+
+<Curly , { > Line Number = 2
+
+<Keyword , int > Line Number = 3
+<Identifier , choice > Line Number = 3
+<Separator , , > Line Number = 3
+<Identifier , i > Line Number = 3
+<Separator , , > Line Number = 3
+<Identifier , j > Line Number = 3
+<Separator , , > Line Number = 3
+<Identifier , a > Line Number = 3
+<Assignment Operator , = > Line Number = 3
+<Number , 5 > Line Number = 3
+<Separator , , > Line Number = 3
+<Identifier , b > Line Number = 3
+<Assignment Operator , = > Line Number = 3
+<Number , 10 > Line Number = 3
+<Separator , , > Line Number = 3
+<Identifier , c > Line Number = 3
+<Assignment Operator , = > Line Number = 3
+<Number , 1 > Line Number = 3
+<Separator , , > Line Number = 3
+<Identifier , d > Line Number = 3
+<Assignment Operator , = > Line Number = 3
+<Number , 2 > Line Number = 3
+<Separator , , > Line Number = 3
+<Identifier , _oddsum > Line Number = 3
+<Assignment Operator , = > Line Number = 3
+<Number , 0 > Line Number = 3
+<Separator , , > Line Number = 3
+<Identifier , _evensum > Line Number = 3
+<Assignment Operator , = > Line Number = 3
+<Number , 0 > Line Number = 3
+<Separator , ; > Line Number = 3
+
+<Identifier , float > Line Number = 4
+<Identifier , num1 > Line Number = 4
+<Assignment Operator , = > Line Number = 4
+<Number , 3 > Line Number = 4
+<Number , 1416 > Line Number = 4
+<Separator , ; > Line Number = 4
+
+<Identifier , double > Line Number = 5
+<Identifier , num2 > Line Number = 5
+<Assignment Operator , = > Line Number = 5
+<Number , 3.15E-2 > Line Number = 5
+<Separator , ; > Line Number = 5
+
+<Keyword , switch > Line Number = 6
+<Parentheses , ( > Line Number = 6
+<Identifier , choice > Line Number = 6
+<Parentheses , ) > Line Number = 6
+
+<Curly , { > Line Number = 7
+
+<Keyword , case > Line Number = 8
+<Number , 1 > Line Number = 8
+<Separator , : > Line Number = 8
+
+<Keyword , int > Line Number = 9
+<Identifier , res > Line Number = 9
+<Separator , ; > Line Number = 9
+
+<Identifier , res > Line Number = 10
+<Assignment Operator , = > Line Number = 10
+<Parentheses , ( > Line Number = 10
+<Identifier , a > Line Number = 10
+<Arithmetic Operator , + > Line Number = 10
+<Identifier , b > Line Number = 10
+<Identifier , c > Line Number = 10
+<Parentheses , ) > Line Number = 10
+<Arithmetic Operator , * > Line Number = 10
+<Parentheses , ( > Line Number = 10
+<Identifier , d > Line Number = 10
+<Arithmetic Operator , / > Line Number = 10
+<Number , 2 > Line Number = 10
+<Parentheses , ) > Line Number = 10
+<Separator , ; > Line Number = 10
+
+<Keyword , break > Line Number = 11
+<Separator , ; > Line Number = 11
+
+<Keyword , case > Line Number = 12
+<Number , 2 > Line Number = 12
+<Separator , : > Line Number = 12
+
+<Keyword , for > Line Number = 13
+<Parentheses , ( > Line Number = 13
+<Identifier , i > Line Number = 13
+<Assignment Operator , = > Line Number = 13
+<Number , 1 > Line Number = 13
+<Separator , ; > Line Number = 13
+<Identifier , i > Line Number = 13
+<Relational Operator , <= > Line Number = 13
+<Number , 100 > Line Number = 13
+<Separator , ; > Line Number = 13
+<Identifier , i > Line Number = 13
+<Increment Operator , ++ > Line Number = 13
+<Parentheses , ) > Line Number = 13
+
+<Curly , { > Line Number = 14
+
+<Keyword , if > Line Number = 15
+<Parentheses , ( > Line Number = 15
+<Identifier , i > Line Number = 15
+<Arithmetic Operator , % > Line Number = 15
+<Number , 2 > Line Number = 15
+<Logical Operator , != > Line Number = 15
+<Number , 0 > Line Number = 15
+<Parentheses , ) > Line Number = 15
+
+<Identifier , _oddsum > Line Number = 16
+<Assignment Operator , = > Line Number = 16
+<Identifier , _oddsum > Line Number = 16
+<Arithmetic Operator , + > Line Number = 16
+<Identifier , i > Line Number = 16
+<Separator , ; > Line Number = 16
+
+<Keyword , else > Line Number = 17
+<Keyword , if > Line Number = 17
+<Parentheses , ( > Line Number = 17
+<Identifier , i > Line Number = 17
+<Arithmetic Operator , % > Line Number = 17
+<Number , 2 > Line Number = 17
+<Logical Operator , == > Line Number = 17
+<Number , 0 > Line Number = 17
+<Parentheses , ) > Line Number = 17
+
+<Identifier , _evensum > Line Number = 18
+<Assignment Operator , = > Line Number = 18
+<Identifier , _evensum > Line Number = 18
+<Arithmetic Operator , + > Line Number = 18
+<Identifier , i > Line Number = 18
+<Separator , ; > Line Number = 18
+
+<Curly , } > Line Number = 19
+
+<Keyword , break > Line Number = 20
+<Separator , ; > Line Number = 20
+
+<Keyword , case > Line Number = 21
+<Number , 3 > Line Number = 21
+<Separator , : > Line Number = 21
+
+<Identifier , j > Line Number = 22
+<Assignment Operator , = > Line Number = 22
+<Number , 10 > Line Number = 22
+<Separator , ; > Line Number = 22
+
+<Keyword , while > Line Number = 23
+<Parentheses , ( > Line Number = 23
+<Identifier , j > Line Number = 23
+<Relational Operator , >= > Line Number = 23
+<Number , 1 > Line Number = 23
+<Logical Operator , && > Line Number = 23
+<Identifier , j > Line Number = 23
+<Relational Operator , <= > Line Number = 23
+<Number , 10 > Line Number = 23
+<Parentheses , ) > Line Number = 23
+
+<Curly , { > Line Number = 24
+
+<Identifier , j > Line Number = 25
+<Decrement Operator , -- > Line Number = 25
+<Separator , ; > Line Number = 25
+
+<Curly , } > Line Number = 26
+
+<Keyword , break > Line Number = 27
+<Separator , ; > Line Number = 27
+
+<Keyword , default > Line Number = 28
+<Separator , : > Line Number = 28
+
+<Identifier , prinf > Line Number = 29
+<Parentheses , ( > Line Number = 29
+<Literals , "Wrong Input" > Line Number = 29
+<Parentheses , ) > Line Number = 29
+<Separator , ; > Line Number = 29
+
+<Curly , } > Line Number = 30
+
+<Curly , } > Line Number = 31
+
+Total number of lines: 31
