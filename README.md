@@ -29,15 +29,15 @@ flex filename.l
 gcc lex.yy.c
 ./a.out
 ```
-
 #### Disadvantage of this approach:
-you have to create one folder to execute one .lex file
-So if you have multiple .l or .lex file, have to create different different folder
-why? The reason is: for each .l or .lex file , everytime a.out file will be created
+you have to create one folder to execute one .lex file <br>
+So if you have multiple .l or .lex file, have to create different different folder <br>
+why? The reason is: for each .l or .lex file , everytime a.out file will be created <br>
 Now windows doesn't support duplicate file in same folder,so it will try to merge & the previous a.out file will be lost
 
 ## Second approach/Best approach
-generally Flex programme is designed with default ```a.out``` file But if You can change the name of Object file , then automatically the executable file name will be changed
+generally Flex programme is designed with default ```a.out``` file But if You can change the name of Object file <br>
+Then automatically the executable file name will be changed.
 
 In CMD Type:
 ```
