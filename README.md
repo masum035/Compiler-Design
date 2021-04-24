@@ -23,11 +23,11 @@ one is ```bin folder of MinGW``` and another is ```bin folder of GnuWin32```
 Flex file's extensions are ```.l``` or ```.lex```
 run command prompt, where your .l or .lex file is located
 ## First approach
-In cmd Type :
-```flex filename.l```
-Then Type: ```gcc lex.yy.c```
-it will give ```a.out``` file
-Again Type: ```./a.out```
+In cmd Type :<br>
+```flex filename.l```<br>
+Then Type: ```gcc lex.yy.c```<br>
+it will give ```a.out``` file<br>
+Again Type: ```./a.out```<br>
 
 Disadvantage - of this approach: you have to create one folder to execute one .lex file
               So if you have multiple .l or .lex file, have to create different different folder
@@ -38,7 +38,7 @@ Disadvantage - of this approach: you have to create one folder to execute one .l
 generally Flex programme is designed with default ```a.out``` file But if You can change the name of Object file , then automatically the executable file name will be changed
 
 In CMD Type:
-```flex fileName.l```
-```gcc lex.yy.c -o Anything```
-```./Anything.exe```
+```flex fileName.l```<br>
+```gcc lex.yy.c -o Anything```<br>
+```./Anything.exe```<br>
 
