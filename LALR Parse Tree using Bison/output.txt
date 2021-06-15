@@ -1,0 +1,25 @@
+=-912 
+=20 
+=1 
+Div by 0 error.
+=22 
+unrecognized character.unrecognized character.=2 
+=6 
+=99 
+=104 
+unrecognized character.unrecognized character.=3 
+=44 
+=11 
+true 
+=1 
+true 
+=1 
+true 
+=1 
+true 
+=1 
+true 
+=1 
+true 
+=1 
+=50 
